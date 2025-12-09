@@ -1,13 +1,5 @@
-<script setup>
-</script>
-
 <template>
   <div>
-    Not found
+    Not Found
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: 404
-</route>

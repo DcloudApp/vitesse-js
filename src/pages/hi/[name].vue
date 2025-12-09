@@ -1,23 +1,21 @@
 <script setup>
+const params = useRoute('/hi/[name]').params
 const router = useRouter()
-const route = useRoute()
 </script>
 
 <template>
   <div>
-    <div text-4xl>
-      <div inline-block />
-    </div>
+    <div i-carbon-pedestrian inline-block text-4xl />
     <p>
-      {{ route.params.name }}
+      Hi, {{ params.name }}
+    </p>
+    <p text-sm op50>
+      <em>Dynamic route!</em>
     </p>
 
     <div>
-      <button
-        m="3 t6" text-sm btn
-        @click="router.back()"
-      >
-        back
+      <button m-3 mt-8 btn text-sm @click="router.back()">
+        Back
       </button>
     </div>
   </div>

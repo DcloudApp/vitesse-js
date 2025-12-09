@@ -42,9 +42,9 @@ pnpm run preview
 ## Scripts
 
 - `pnpm run dev`: development mode (`--mode dev`)
+- `pnpm run test`: test build (`--mode test`)
 - `pnpm run build`: production build (`--mode production`)
 - `pnpm run preview`: preview the production build locally
-- `pnpm run test`: build in dev mode (placeholder, no test framework)
 - `pnpm run lint` / `pnpm run lint:fix`: ESLint check / auto-fix
 - `pnpm run up`: upgrade dependencies (`taze`)
 

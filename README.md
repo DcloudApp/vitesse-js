@@ -44,9 +44,9 @@ pnpm run preview
 ## 常用命令
 
 - `pnpm run dev`：开发模式（`--mode dev`）
+- `pnpm run test`：测试构建（`--mode test`）
 - `pnpm run build`：生产构建（`--mode production`）
 - `pnpm run preview`：本地预览生产构建
-- `pnpm run test`：开发模式构建（模板占位，无测试框架）
 - `pnpm run lint` / `pnpm run lint:fix`：ESLint 检查 / 自动修复
 - `pnpm run up`：依赖升级（`taze`）
 

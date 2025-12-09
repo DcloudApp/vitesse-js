@@ -24,7 +24,13 @@ export default defineConfig({
     }),
     Layouts(),
     AutoImport({
-      imports: ['vue', 'vue-router', '@vueuse/core', 'vue-i18n', 'pinia'],
+      imports: [
+        'vue',
+        'vue-router',
+        '@vueuse/core',
+        'vue-i18n',
+        'pinia',
+      ],
       dts: false,
     }),
     Components({

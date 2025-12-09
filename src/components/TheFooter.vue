@@ -1,9 +1,18 @@
+<script setup>
+import { toggleDark } from '@/composables/dark'
+</script>
+
 <template>
-  <footer
-    class="px-4 py-10 text-center text-dark:gray-200 text-gray-700"
-  >
-    <div class="mx-auto mt-5 text-center text-sm opacity-50">
-      [Default Layout]
-    </div>
-  </footer>
+  <nav mt-6 inline-flex gap-2 text-xl>
+    <button icon-btn @click="toggleDark()">
+      <div i-carbon-sun dark:i-carbon-moon />
+    </button>
+    <a
+      i-carbon-logo-github icon-btn
+      rel="noreferrer"
+      href="https://github.com/DcloudApp/vitesse-js"
+      target="_blank"
+      title="GitHub"
+    />
+  </nav>
 </template>
